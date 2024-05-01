@@ -7,3 +7,10 @@ Template for deep learning models using PyTorch
 ```
 python main.py --c cfg_setting.yaml
 ```
+
+## Optional
+Some packages are utilized for optimizing the interface and are unrelated to the main functionality. If they are not desired, they can be optionally excluded from installation. Consequently, the corresponding code pertaining to these packages needs to be removed.
+```
+pip install wandb
+pip install tqdm
+```
