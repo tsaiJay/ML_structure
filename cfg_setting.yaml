@@ -1,9 +1,9 @@
 project_name: 'LSTM_cifar10'
-run_id: '1_resume'
-use_wandb: True
+run_id: '1'
+use_wandb: False
 record: True
-wandb_entity: 'tjproject'
-resume: True
+wandb_entity: 'nothing'
+resume: False
 
 gpu_id: 0
 num_workers: 4
